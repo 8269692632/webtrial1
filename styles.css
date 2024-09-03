@@ -1,0 +1,656 @@
+*{  
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    background-color: rgb(0, 0, 0);
+    height:143%;
+    width: 100%; 
+}
+   
+#nav{
+    font-family: 'Raleway';
+    font-weight: 700;
+    padding: 1.3rem 0;
+    background-color: rgb(10, 10, 10);
+    text-align: center;
+    word-spacing: 120px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    position: absolute;
+    width: 100%;
+    z-index: 20;
+}
+#aa{
+    color:white;
+    font-size: .96rem;
+    font-style: normal;
+    text-transform: capitalize;
+    text-decoration: none;
+    text-transform: uppercase;
+}    
+#mid1{
+    /* position: absolute;
+    top: 90%;
+    left: 85%;
+    transform: translate(-50%,-50%); */
+ padding: 8px 20px;
+ background-color:#fecb1c;
+ border-color: #fecb1c;
+ color: aliceblue;
+ border-radius: 5px;
+ font-weight: 800;
+}
+
+#mid1>a{
+    font-family: 'Oswald', Times, serif;
+}
+#img1{
+    width: 100%;
+    height: 100%;
+    margin-top: -980px;
+    z-index: 10;
+    opacity: 62%;
+}
+#cntr1{
+    font-family: 'Oswald', Times, serif;
+    position: absolute;
+    top: 37.5%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+}
+#cntr2{
+    padding-top: 15px;
+    font-family: 'Oswald', Times, serif;
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: rgb(255, 255, 255);
+    font-size: 80px;
+    padding-bottom: 28px;
+    border-bottom: 1.5px solid #fecb1c;
+}
+#pan {
+    position: absolute;
+    top: 82.5%;
+    left: 50%;
+    width: 30%;
+    height: 8%;
+    font-family: 'Raleway', Times, serif;
+    font-style: italic;
+    text-align: center;
+    transform: translate(-50%,-50%);
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    font-weight: 500;
+    opacity: 82%;
+}
+#link{
+    padding: 20px 45px;
+    position: absolute;
+    top: 94%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-family: 'Raleway', Times, serif;
+    border: 1.2px solid ;
+    border-color: #fecb1c;
+    color: aliceblue;
+    border-radius: 5px;
+    font-weight: 700;
+}
+#mids{
+    position: absolute;
+    content: "";
+    width: 100%;
+    top: 101.5%;
+    background-color: #fecb1c;
+    height: 19rem;
+    bottom: -1px;
+    -webkit-clip-path: polygon(0 0, 0% 100%, 100% 100%);
+    clip-path: polygon(0 0, 0% 100%, 100% 100%);
+    z-index: 1
+}
+#btm{
+    background-color: #fecb1c;
+    height: 100%;
+    width: 100%;
+}
+#cntrbtm{
+    position: absolute;
+    top: 165%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 80%;
+    margin-right: 12px;
+    height: 275px;
+    border-bottom: 1.5px solid black;
+}
+#wrk{
+    font-size: 55px;
+    padding-left: 50px;
+    font-family: 'Oswald', Times, serif;
+}
+#lrm{
+    font-size: 18px;
+    letter-spacing: 0.8px;
+    font-family: 'Oswald', Times, serif;
+    font-style: italic;
+    font-weight: 330;
+    width: 60%;
+    padding-left: 50px;
+    
+}
+#icon{
+    width: 100px;
+    height: 100px;
+    
+}
+
+#gg{
+    display: block;
+  width: 200px;
+  height: 38px;
+  margin-bottom: 5px;
+  position: relative;
+  background: #000000;
+  opacity: 11%;
+  border-radius: 8px;
+  font-size: 500px;
+  z-index: -1;
+  margin-top: 32px;
+}
+#maind{
+    position: absolute;
+    top: 9.5%;
+}
+.xd{
+    margin-left: 30px;
+}
+#card{
+    padding-top: 28px;
+    width: 80%;
+    height: 450px;
+    position: absolute;
+    top: 220%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+#card1{
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+    background-image: url(https://html.iwthemes.com/studio-landing-2020/no-arrows/images/works/eduardo-prim-unsplash-work-1.jpg);
+    background-size: cover;
+}
+#card2{
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+    background-image: url(https://html.iwthemes.com/studio-landing-2020/no-arrows/images/works/rob-mulally-unsplash-work-2.jpg);
+    background-size: cover;
+}
+#card3{
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+    background-image: url(https://html.iwthemes.com/studio-landing-2020/no-arrows/images/works/philippe-bourhis-unsplash-work-3.jpg);
+    background-size: cover;
+}
+
+#midbtm1{
+    margin-right: 12%;
+    width: 80%;
+    height: 180px;
+    position: absolute;
+    top: 265%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: #fecb1c;
+    border-top: 1.5px solid black;
+}
+#botm{
+    font-family: 'Raleway', Times, serif;
+    font-style: italic;
+    background-color: #fecb1c;
+    width: 100%;
+    height: 250px;
+    display: flex;
+    align-items: center;
+}
+#pp{
+    position: absolute;
+    top: 263%;
+    left: 22%;
+    transform: translate(-50%,-50%);
+    font-size: 18px;
+    
+}
+#ppa{
+    text-decoration: none;
+    color: white;
+}
+#ppl{
+    width: 500px;
+    height: 100px;
+    position: absolute;
+    left: 56%;
+    display: flex;
+    padding-top: 50px;
+    /* align-items: center; */
+    justify-content: flex-end;
+
+}
+#icns i{
+    padding-top: 30px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+    padding: 10px;
+    border-radius: 50%;
+    margin-right: 10px;
+
+
+}
+
+#midbtm{
+    position: absolute;
+    content: "";
+    top: 277.3%;
+    width: 100%;
+    background-color: #fecb1c;
+    height: 17rem;
+    bottom: -15.97rem;
+    -webkit-clip-path: polygon(100% 0, 0 0, 100% 100%);
+    clip-path: polygon(100% 0, 0 0, 100% 100%);
+    z-index: 1;
+}
+#img3{
+    position: relative;
+    z-index: -1;
+    width: 100%;
+    height: 280%;
+    object-fit: cover;
+    margin-top: -670px;
+    opacity: 100%;
+}
+#midl{
+    position: absolute;
+    top: 277.4%;
+    width: 100%;
+    height: 1600px;
+    opacity: 50%;
+    background-color: rgb(0, 0, 0);
+}
+#about{
+    font-family: 'Oswald', Times, serif;
+    position: absolute;
+    top: 328%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 80%;
+    margin-right: 12px;
+    height: 275px;
+    border-bottom: 1.5px solid #fecb1c;
+    
+}
+#abt{
+    font-size: 60px;
+    font-size: 500;
+    color: white;
+    padding-left: 50px;
+    padding-top: 10px;
+}
+#lrma{
+    font-family: 'Raleway', Times, serif;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    width: 62%;
+    padding-left: 50px;
+    font-style: italic;
+    font-weight: 380;
+    padding-bottom: 50px;
+    
+}
+#cntrcards{
+   
+    width: 55%;
+    height: 300px;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    top: 380%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#card4{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    background-color: #fecb1c;
+    background-image: url(https://html.iwthemes.com/studio-landing-2020/no-arrows/images/team/tran-mau-tri-tam-unsplash.jpg);
+    background-size: cover;
+}
+#card5{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    background-color: #fecb1c;
+    background-image: url(https://html.iwthemes.com/studio-landing-2020/no-arrows/images/team/miguelangel-miquelena-unsplash.jpg);
+    background-size: cover;
+}
+#cntrtxt{
+    width: 62%;
+    height: 100px;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    top: 405%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+    padding: 40px;
+    text-align: center;
+    
+
+}
+#cx1 h3{
+    font-family: 'Oswald', Times, serif;
+    color: white;
+    padding-left: 30px;
+
+    font-size: 30px;
+    padding-bottom: 8px;
+
+}
+#cx1 h5{
+    color: #fecb1c;
+    font-size: 17px;
+    font-family: 'Raleway', Times, serif;
+    font-style: italic;
+    font-weight: 500;
+    padding-left: 12px;
+}
+#icnsx i{
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+    padding: 8px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+#icnsx{
+    position: absolute;
+    left: 30.5%;
+    transform: translate(-50%,-50%);
+    top: 415%;
+    display: flex;
+}
+#cx2 h3{
+    color: white;
+    font-family: 'Oswald', Times, serif;
+    font-size: 30px;
+    padding-bottom: 8px;
+
+}
+#cx2 h5{
+    font-family: 'Raleway', Times, serif;
+    font-style: italic;
+    color: #fecb1c;
+    font-size: 17px;
+    font-weight: 500;
+}
+#icnsz{
+    position: absolute;
+    left: 71.5%;
+    transform: translate(-50%,-50%);
+    top: 415%;
+    display: flex;
+}
+#icnsz i{
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+    padding: 8px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+#xz{
+
+    width: 80%;
+    left: 50%;
+    height: 200px;
+    
+    transform: translate(-50%,-50%);
+    position: absolute;
+    top: 440%;
+    border-top: 1.5px solid #fecb1c;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 18px;
+    text-align: center;
+
+}
+#xz h2{
+    font-family: 'Oswald', Times, serif;
+    color: white;
+
+    font-size: 25px;
+
+}
+#xz img{
+    padding-bottom: 12px;
+}
+#xz h4{
+    font-family: 'Raleway', Times, serif;
+    color: white;
+}
+#ad{
+    position: absolute;
+    content: "";
+    width: 100%;
+    background-color: #fecb1c;
+    height: 16rem;
+    top: 204rem;
+    -webkit-clip-path: polygon(0 0, 0% 100%, 100% 100%);
+    clip-path: polygon(0 0, 0% 100%, 100% 100%);
+    z-index: 1000;
+}
+#bot{
+    top: 482%;
+    position: absolute;
+    width: 100%;
+    height: 900px;
+    background-color: #fecb1c;
+}
+#bot1{
+    font-family: 'Oswald', Times, serif;
+    font-size: 60px;
+    color: rgb(0, 0, 0);
+    padding-top: 280px;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    z-index: 5;
+
+}
+#bot img{
+
+    width: 200px;
+    font-size: 200px;
+    color: rgb(0, 0, 0);
+    padding-top: 370px;
+    position: absolute;
+    left: 35%;
+    top: 2.5%;
+    transform: translate(-50%,-50%);
+    rotate: -10deg;
+    opacity: 10%;
+    z-index: 2;
+    
+}
+#upar{
+    position: absolute;
+    left: 50%;
+    top: 18%;
+    transform: translate(-50%,-50%);
+    
+    margin-top: 260px;
+    width: 80%;
+    height: 370px;
+    border-top: 1.5px solid black;
+    border-bottom: 1.5px solid black;
+    text-align: center;
+}
+#upar>h4{
+    font-family: 'Raleway', Times, serif;
+    font-style: italic;
+    font-weight: 470;
+    font-size: 25px;
+    padding-top: 110px;
+}
+#ao{
+    font-family: 'Oswald', Times, serif;
+    font-style: italic;
+    font-size: 45px;
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+}
+
+#ao:hover{
+    text-decoration: underline;
+}
+#ax{
+    padding-top: 75px;
+}
+#btmicn{
+
+
+    width: 85%;
+    height: 200px;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    
+    margin-top: 230px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+
+}
+#btmicn i{
+    
+    font-size: 75px;
+
+}
+#btmicn2 h4{
+    font-family: 'Raleway', Times, serif;
+    font-style: italic;
+    font-size: 30px;
+    padding-bottom: 10px;
+    padding-top: 15px;
+    font-weight: 500;
+}
+#am{
+    font-size: 30px;
+    padding-bottom: 10px;
+    padding-top: 15px;
+    
+
+}
+#am a{
+    font-family: 'Raleway','Times New Roman', Times, serif;
+    font-style: italic;
+    text-decoration: none;
+    color: #000000;
+    font-weight: 500;
+}
+#last{
+    position: absolute;
+    background-color: #000000;
+    width: 100%;
+    height: 220px;
+    top: 604%;
+}
+#ic i{
+        background-color: rgb(255, 255, 255);
+        color: rgb(0, 0, 0);
+        font-size: 30px;
+        padding: 10px;
+        border-radius: 50%;
+        margin-right: 15px;
+    
+}
+#ic{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 55px;
+ } 
+ #ccx{
+    font-size: 20px;
+    color: white;;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 40px;
+}
+
+i:hover{
+    transform: scale(1.2);
+}
+i{
+    transition: all 0.1s;
+}
+
+#link::before{
+    background-color: #fecb1c;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 50%;
+    left: 50%;
+    content: "";
+    width: 100%;
+    height: 0%;
+    z-index: -1;
+    transition: all 0.5s ease;
+    opacity: 75%;
+}
+#link:hover::before{
+    
+    height: 100%;
+}
+
+#mid1::before{
+    background-color: #fecb1c;
+    /* position: absolute;
+    transform: translate(-50%,-50%);
+    top: 50%;
+    left: 50%; */
+    content: "";
+    width: 100%;
+    height: 0%;
+    z-index: -1;
+    transition: all 0.5s ease;
+    opacity: 75%;
+}
+#mid1:hover::before{
+    
+    height: 100%;
+}
